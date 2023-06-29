@@ -17,6 +17,11 @@ public class CamFollow : MonoBehaviour
     private void Start()
     {
         offset = new Vector3(0f, height, -distance);
+
+        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+
+        if(target == null)
+            return;
     }
 
     private void LateUpdate()
