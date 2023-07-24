@@ -8,6 +8,7 @@ public class SceneLoad : MonoBehaviour
 {
     public static string scene;
     public static int phase;
+    public static int stages;
     [SerializeField] Image loadingBArFill;
 
     void Start()
@@ -17,6 +18,7 @@ public class SceneLoad : MonoBehaviour
     public void LoadScene()
     {
         Debug.Log(scene);
+        Debug.Log(phase);
         StartCoroutine(LoadSceneAsync(scene));
     }
 

@@ -15,4 +15,7 @@ public class PassSceneInfo : MonoBehaviour
     public void PassPhase(int phase){
         SceneLoad.phase = phase;
     }
+    public void PassStage(int stages){
+        SceneLoad.stages = stages;  
+    }
 }

@@ -76,7 +76,7 @@ public class Player : MonoBehaviour
         Vector3 dragDir = dragEndPos - dragStartPos;
         dragDir.Normalize();
 
-        Vector3 rollForceVector = new Vector3(dragDir.x, 0f, dragDir.y) * rollForce * 0.1f;
+        Vector3 rollForceVector = new Vector3(dragDir.x, 0f, dragDir.y) * rollForce * 0.4f;
 
         rb.AddForce(rollForceVector, ForceMode.Impulse);
     }

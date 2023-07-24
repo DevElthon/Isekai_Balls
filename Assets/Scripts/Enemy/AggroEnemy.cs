@@ -20,11 +20,18 @@ public class AggroEnemy : MonoBehaviour
     private Character targetCharacter;
     private Vector3 pushDirection;
 
-    public float pushForce = 10f; // Força com que o alvo é empurrado para trás
     public float pushDuration = 0.5f; // Duração do empurrão
 
     private bool isPushing = false;
     private float pushTimer = 0f;
+
+    private void Awake() {
+        target= GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        if (target == null)
+        {
+            return;
+        }
+    }
 
     private void Start()
     {
