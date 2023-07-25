@@ -62,6 +62,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 584381547578396069, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 584381547578396069, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 584381547578396069, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 584381547578396069, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.1
       objectReference: {fileID: 0}
@@ -109,10 +121,14 @@ PrefabInstance:
       propertyPath: resistance
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 584381547578396074, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4711208715938537054, guid: e6c8939c48c5ba1429b434ba513ce729, type: 3}
     - target: {fileID: 584381547578396075, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 77c31b5466ac5764d9b31804e9d0d72a, type: 2}
+      objectReference: {fileID: 2100000, guid: cf0a80df400fb24438d2842687ff5d71, type: 2}
     - target: {fileID: 584381547578396078, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -150,6 +166,18 @@ PrefabInstance:
     - target: {fileID: 584381547578396069, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 584381547578396069, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 584381547578396069, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 584381547578396069, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 584381547578396069, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -199,10 +227,14 @@ PrefabInstance:
       propertyPath: resistance
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 584381547578396074, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4711208715938537054, guid: e6c8939c48c5ba1429b434ba513ce729, type: 3}
     - target: {fileID: 584381547578396075, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 77c31b5466ac5764d9b31804e9d0d72a, type: 2}
+      objectReference: {fileID: 2100000, guid: cf0a80df400fb24438d2842687ff5d71, type: 2}
     - target: {fileID: 584381547578396078, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
       propertyPath: m_Name
       value: Enemy (2)
@@ -240,6 +272,18 @@ PrefabInstance:
     - target: {fileID: 584381547578396069, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 584381547578396069, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 584381547578396069, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 584381547578396069, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 584381547578396069, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -289,10 +333,14 @@ PrefabInstance:
       propertyPath: resistance
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 584381547578396074, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4711208715938537054, guid: e6c8939c48c5ba1429b434ba513ce729, type: 3}
     - target: {fileID: 584381547578396075, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 77c31b5466ac5764d9b31804e9d0d72a, type: 2}
+      objectReference: {fileID: 2100000, guid: cf0a80df400fb24438d2842687ff5d71, type: 2}
     - target: {fileID: 584381547578396078, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
       propertyPath: m_Name
       value: Enemy (1)

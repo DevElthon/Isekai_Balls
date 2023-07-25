@@ -112,7 +112,7 @@ PrefabInstance:
     - target: {fileID: 584381547578396075, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: fb4b5be8cf8299f4cb6ab2c1242ccefa, type: 2}
+      objectReference: {fileID: 2100000, guid: 23767b548013f16499f8092a66595100, type: 2}
     - target: {fileID: 584381547578396078, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -202,7 +202,7 @@ PrefabInstance:
     - target: {fileID: 584381547578396075, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: fb4b5be8cf8299f4cb6ab2c1242ccefa, type: 2}
+      objectReference: {fileID: 2100000, guid: 23767b548013f16499f8092a66595100, type: 2}
     - target: {fileID: 584381547578396078, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
       propertyPath: m_Name
       value: Enemy (2)
@@ -292,7 +292,7 @@ PrefabInstance:
     - target: {fileID: 584381547578396075, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: fb4b5be8cf8299f4cb6ab2c1242ccefa, type: 2}
+      objectReference: {fileID: 2100000, guid: 23767b548013f16499f8092a66595100, type: 2}
     - target: {fileID: 584381547578396078, guid: 7962c3b9c5602774d99e237f4aaf98e1, type: 3}
       propertyPath: m_Name
       value: Enemy (1)
