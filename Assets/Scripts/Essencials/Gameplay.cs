@@ -73,17 +73,12 @@ public class Gameplay : MonoBehaviour
                     SceneLoad.stages = 1;
                     break;
                 case 10:
+                    UpdateMapData();
                     SceneLoad.scene = "Menu";
                     break;
             }
 
-            if(PlayerPrefs.GetInt("Map1Counter") < phase){
-                PlayerPrefs.SetInt("Map1Counter",PlayerPrefs.GetInt("Map1Counter")  + 1);
-                PlayerPrefs.SetInt("Lock1",PlayerPrefs.GetInt("Lock1") + 1);
-
-                Debug.Log(PlayerPrefs.GetInt("Lock1"));
-                Debug.Log(PlayerPrefs.GetInt("MapCounter"));
-            }
+            UpdateMapData();
 
             PlayerPrefs.SetInt("Coins", PlayerPrefs.GetInt("Coins") + coinAmount + (phase * 5)  + PlayerPrefs.GetInt("CoinLvl") * 5);
 
@@ -113,5 +108,15 @@ public class Gameplay : MonoBehaviour
             enemyCounter = 0;
             Time.timeScale = 1f;
             SceneManager.LoadScene("LoadingScene");
+    }
+
+    public void UpdateMapData(){
+        if(PlayerPrefs.GetInt("Map1Counter") < phase){
+                PlayerPrefs.SetInt("Map1Counter",PlayerPrefs.GetInt("Map1Counter")  + 1);
+                PlayerPrefs.SetInt("Lock1",PlayerPrefs.GetInt("Lock1") + 1);
+
+                Debug.Log(PlayerPrefs.GetInt("Lock1"));
+                Debug.Log(PlayerPrefs.GetInt("MapCounter"));
+            }
     }
 }

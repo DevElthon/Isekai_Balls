@@ -32,7 +32,7 @@ public class MainMenu : MonoBehaviour
     }
 
     private void LocksUpdate(){
-        for(int i = 0; i < locks1.Count; i++){
+        for(int i = 0; i < locks1.Count + 1; i++){
             if(PlayerPrefs.GetInt("Lock1") >= i && i >= 1){
                 locks1[i - 1].SetActive(false);
             }
