@@ -59,7 +59,7 @@ public class AggroEnemy : MonoBehaviour
         {
             if (pushTimer < pushDuration)
             {
-                float pushForceInterpolated = Mathf.Lerp(character.strength - targetCharacter.resistance + rb.velocity.x + rb.velocity.z, 0f, pushTimer / pushDuration);
+                float pushForceInterpolated = Mathf.Lerp(character.strength - targetCharacter.resistance - PlayerPrefs.GetInt("Defense") + rb.velocity.x + rb.velocity.z, 0f, pushTimer / pushDuration);
 
                 targetRb.AddForce(pushDirection * pushForceInterpolated, ForceMode.Force);
 

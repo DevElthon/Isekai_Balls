@@ -8,6 +8,7 @@ public class Gameplay : MonoBehaviour
     public static Gameplay instance;
     public int phase;
     public int stages, enemyCounter;
+    public int coinAmount;
 
     [Header("Player Spawn")]
     public List<GameObject> playerSpawnPoints = new List<GameObject>();
@@ -17,6 +18,9 @@ public class Gameplay : MonoBehaviour
     [SerializeField]
     private GameObject player;
     private GameObject currentPlayer;
+
+    [SerializeField]
+    private GameObject nextPhasePanel;
 
     private void Awake() {
         if (instance == null){
@@ -72,9 +76,21 @@ public class Gameplay : MonoBehaviour
                     SceneLoad.scene = "Menu";
                     break;
             }
-            enemyCounter = 0;
-            SceneManager.LoadScene("LoadingScene");
+
+            if(PlayerPrefs.GetInt("Map1Counter") < phase){
+                PlayerPrefs.SetInt("Map1Counter",PlayerPrefs.GetInt("Map1Counter")  + 1);
+                PlayerPrefs.SetInt("Lock1",PlayerPrefs.GetInt("Lock1") + 1);
+
+                Debug.Log(PlayerPrefs.GetInt("Lock1"));
+                Debug.Log(PlayerPrefs.GetInt("MapCounter"));
+            }
+
+            PlayerPrefs.SetInt("Coins", PlayerPrefs.GetInt("Coins") + coinAmount + (phase * 5)  + PlayerPrefs.GetInt("CoinLvl") * 5);
+
+            Time.timeScale = 0f;
+            nextPhasePanel.SetActive(true);
         }
+
         else if(enemyCounter % stages == 0 && enemyCounter >= stages && enemyCounter < stages * stages){
             Debug.Log(enemyCounter);
             SpawnEnemies();
@@ -91,5 +107,11 @@ public class Gameplay : MonoBehaviour
             Destroy(currentPlayer);
             SceneManager.LoadScene("LoadingScene");
         }
+    }
+
+    public void NextPhase(){
+            enemyCounter = 0;
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("LoadingScene");
     }
 }

@@ -33,7 +33,7 @@ public class Player : MonoBehaviour
         {
             if (pushTimer < pushDuration)
             {
-                float pushForceInterpolated = Mathf.Lerp((character.strength - targetCharacter.resistance + rb.velocity.x + rb.velocity.z), 0f, pushTimer / pushDuration);
+                float pushForceInterpolated = Mathf.Lerp((character.strength + PlayerPrefs.GetInt("Strength") - targetCharacter.resistance + rb.velocity.x + rb.velocity.z), 0f, pushTimer / pushDuration);
 
                 targetRb.AddForce(pushDirection * pushForceInterpolated, ForceMode.Force);
 
