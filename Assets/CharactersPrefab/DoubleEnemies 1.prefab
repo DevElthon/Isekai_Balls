@@ -128,7 +128,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 584381547578396068, guid: e0ff7903631603446875e2779b36e69c, type: 3}
       propertyPath: smoothness
-      value: 0.75
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 584381547578396069, guid: e0ff7903631603446875e2779b36e69c, type: 3}
       propertyPath: m_RootOrder
