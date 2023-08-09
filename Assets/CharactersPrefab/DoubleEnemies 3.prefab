@@ -148,11 +148,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 584381547578396068, guid: 0229f780258187e4fb9d7aa25bd6b036, type: 3}
       propertyPath: speed
-      value: 7.25
+      value: 6.75
       objectReference: {fileID: 0}
     - target: {fileID: 584381547578396068, guid: 0229f780258187e4fb9d7aa25bd6b036, type: 3}
       propertyPath: smoothness
-      value: 1.75
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 584381547578396069, guid: 0229f780258187e4fb9d7aa25bd6b036, type: 3}
       propertyPath: m_RootOrder

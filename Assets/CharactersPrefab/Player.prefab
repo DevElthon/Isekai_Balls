@@ -128,9 +128,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d58493329def26439dc9c1698eece16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerMesh: {fileID: 6435729094486144384}
+  meshRenderer: {fileID: 4078557488619609528}
   character: {fileID: 0}
   rollForce: 2.2
   pushDuration: 0.5
+  skins:
+  - {fileID: 4711208715938537054, guid: 6c33d2ab8a71c664aa05b2a89c73b434, type: 3}
+  - {fileID: 4711208715938537054, guid: 57e5ea7f4de11af4781b4cc09b4fcb50, type: 3}
+  skinRenderes:
+  - {fileID: -6478536213147159724, guid: 6c33d2ab8a71c664aa05b2a89c73b434, type: 3}
+  - {fileID: -876546973899608171, guid: 57e5ea7f4de11af4781b4cc09b4fcb50, type: 3}
 --- !u!114 &4078557488619609524
 MonoBehaviour:
   m_ObjectHideFlags: 0

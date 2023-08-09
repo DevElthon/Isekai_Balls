@@ -10,6 +10,9 @@ public class MainMenu : MonoBehaviour
 
     public List<GameObject> locks1 = new List<GameObject>();
 
+    public List<GameObject> skinLocks = new List<GameObject>();
+    public List<GameObject> SkinButtons = new List<GameObject>();
+
     public TextMeshProUGUI coin;
 
 
@@ -31,6 +34,10 @@ public class MainMenu : MonoBehaviour
         lesserMenus[menuMinus].SetActive(false);
     }
 
+    public void ActiveSkin(int index){
+        PlayerPrefs.SetInt("SetSkin", index);
+    }
+
     private void LocksUpdate(){
         for(int i = 0; i < locks1.Count + 1; i++){
             if(PlayerPrefs.GetInt("Lock1") >= i && i >= 1){
@@ -39,11 +46,22 @@ public class MainMenu : MonoBehaviour
         }
     }
 
+    private void SkinsLockUpdate(){
+        for(int i = 1; i < skinLocks.Count + 1; i++){
+            if(PlayerPrefs.GetInt("Skin" + i.ToString()) == 1){
+                skinLocks[i-1].SetActive(false);
+                SkinButtons[i - 1].SetActive(false);
+            }
+        }
+    }
+
     private void Awake() {
         LocksUpdate();
+        SkinsLockUpdate();
     }
 
     private void Update() {
         coin.text = PlayerPrefs.GetInt("Coins").ToString();
+        SkinsLockUpdate();
     }
 }

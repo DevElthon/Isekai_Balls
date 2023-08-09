@@ -43,6 +43,9 @@ public class GameData : MonoBehaviour
             PlayerPrefs.SetInt("Skin5", 0);
         if (!PlayerPrefs.HasKey("Skin6"))
             PlayerPrefs.SetInt("Skin6", 0);
+        
+        if (!PlayerPrefs.HasKey("SetSkin"))
+            PlayerPrefs.SetInt("SetSkin", 0);
 
         //Map 1
         if (!PlayerPrefs.HasKey("Map1Timer"))

@@ -98,10 +98,6 @@ public class Gameplay : MonoBehaviour
             StageCompute(enemyCounter);
             Destroy(other.gameObject);
         }
-        if(other.CompareTag("Player")){
-            Destroy(currentPlayer);
-            SceneManager.LoadScene("LoadingScene");
-        }
     }
 
     public void NextPhase(){

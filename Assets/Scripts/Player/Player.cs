@@ -1,9 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
+    [SerializeField]
+    private MeshFilter playerMesh;
+    [SerializeField]
+    private MeshRenderer meshRenderer;
+
     private Rigidbody rb;
     public Character character;
     private bool isDragging = false;
@@ -12,6 +18,7 @@ public class Player : MonoBehaviour
     public float rollForce = 10f;
     private float draggingTime = 0f;
     private float maxDraggingTime = 1f;
+    private float maxVelocity = 7f;
 
     [Header("Combate")]
     private Rigidbody targetRb;
@@ -21,10 +28,18 @@ public class Player : MonoBehaviour
     private bool isPushing = false;
     private float pushTimer = 0f;
 
+    [Header("Skins")]
+    [SerializeField]
+    private List<Mesh> skins = new List<Mesh>();
+    [SerializeField]
+    private List<Material> skinRenderes = new List<Material>();
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         character = GetComponent<Character>();
+        
+        ApplySkin();
     }
 
     private void FixedUpdate()
@@ -78,7 +93,10 @@ public class Player : MonoBehaviour
 
         Vector3 rollForceVector = new Vector3(dragDir.x, 0f, dragDir.y) * rollForce * 0.4f;
 
-        rb.AddForce(rollForceVector, ForceMode.Impulse);
+        if(rb.velocity.x < maxVelocity && rb.velocity.z < maxVelocity)
+            rb.AddForce(rollForceVector, ForceMode.Impulse);
+
+        Debug.Log(rb.velocity);
     }
     
     private void OnCollisionEnter(Collision collision)
@@ -96,5 +114,17 @@ public class Player : MonoBehaviour
                 Debug.Log("PUSH!");
             }
         }
+    }
+    private void OnTriggerEnter(Collider other) {
+        if(other.CompareTag("PlayerFall")){
+            Destroy(this.gameObject);
+            SceneManager.LoadScene("LoadingScene");
+        }
+    }
+
+    public void ApplySkin(){
+        playerMesh.mesh = skins[PlayerPrefs.GetInt("SetSkin")];
+        meshRenderer.material = skinRenderes[PlayerPrefs.GetInt("SetSkin")];
+        Debug.Log(PlayerPrefs.GetInt("SetSkin"));
     }
 }

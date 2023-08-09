@@ -129,8 +129,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  speed: 7
-  smoothness: 1.5
+  speed: 6.5
+  smoothness: 1.25
   character: {fileID: 0}
   pushDuration: 0.5
 --- !u!114 &584381547578396071

@@ -8,6 +8,7 @@ public class Store : MonoBehaviour
     private int strengthValue;
     private int defenseValue;
     private int coinValue;
+    private int skinBaseValue;
 
     [SerializeField]
     private TextMeshProUGUI str, def, coin;
@@ -54,6 +55,16 @@ public class Store : MonoBehaviour
         priceCoin.text = coinValue.ToString();
     }
     //Skills logic end
+
+    //Skins logic
+    public void BuySkin(int index){
+        skinBaseValue = 200 + index * 100;
+        if(PlayerPrefs.GetInt("Coins") >= skinBaseValue){
+            PlayerPrefs.SetInt("Coins", PlayerPrefs.GetInt("Coins") - skinBaseValue);
+            PlayerPrefs.SetInt("Skin"+index.ToString(), 1);
+            PlayerPrefs.SetInt("SetSkin", index);
+        }
+    }
 
     private void Update() {
         UpdateSkillsLVL();
