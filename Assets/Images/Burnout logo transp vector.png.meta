@@ -1,0 +1,1275 @@
+fileFormatVersion: 2
+guid: 8c0760ea92f3d5841bcfaff7566464c6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Burnout logo transp vector_0
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1110
+        width: 127
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d400d9453840ff742a2dd0a5842a730a
+      internalID: 1259239432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_1
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1110
+        width: 41
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397d575fbe0345344a4552851a6f89f5
+      internalID: 1984250249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_2
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1092
+        width: 76
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06402aa14b9faac42979d0372003d18a
+      internalID: 1856840668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_3
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1104
+        width: 31
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e311ed3651263f94d93facbffc0e36b3
+      internalID: 851448781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_4
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1098
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56651cb225387284eba47835654ea81a
+      internalID: 1352034691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_5
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1092
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77a4ac606a4bc54ca2baf73a5e7d4b7
+      internalID: 1111868741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 372
+        width: 748
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aae2c3c05b063045a74ea78afd91a87
+      internalID: 1157245025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_7
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1086
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7b1f063d4e18143beb194c7e179273
+      internalID: 116976658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_8
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1086
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf9c1591774d484496a47f3fe4c0463
+      internalID: 1981437804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_9
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1008
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ff9f7ad74da474aa4f68af4b217e0b
+      internalID: 1808873670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_10
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1002
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e186e6bbdf1f4a4a8ab61cc65823403
+      internalID: -17655822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_11
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 996
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42eb3229ea467ed4596c2b5ab79994d4
+      internalID: -1344630912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_12
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 990
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcf499f980234b4692793ab4381046a
+      internalID: -263631704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_13
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 984
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e1c08f48e241c4eb8404fffe313fbc
+      internalID: -145907911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_14
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 946
+        width: 70
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43c3da8c66ff534d9c7b39278195c24
+      internalID: 61728917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_15
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 878
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc0ab9cd0a9de944b22be01e4128c16
+      internalID: -1365787785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_16
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 816
+        width: 17
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2db0aa5dc1954449835f289f561c216
+      internalID: -166813370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 786
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233c9d32c77465f4ba7d791540c54dbd
+      internalID: -1027855019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_18
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 651
+        width: 7
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5964fb3fe48912d489b2b7a8567a4944
+      internalID: 1244668586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_19
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 335
+        width: 452
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa60f9d301852e74cbbb64db08dca923
+      internalID: -238396945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_20
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 678
+        width: 5
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5804e3cd4476a4fa79e4000e465cb5
+      internalID: -603595165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_21
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 601
+        width: 11
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a1e19de0d2cdc46a1c096f0583ed82
+      internalID: 1549004847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_22
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 595
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99895e64eb2b2074bb36b74950b9b6e0
+      internalID: -946661199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_23
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 589
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2883a0aec6656b14088329a2033d1b16
+      internalID: 2042538710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_24
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 583
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b64bb1741a9e0543aff315b3ca34fc1
+      internalID: -734138215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_25
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 367
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec26fdaf7f6dc447ac50b25726a7945
+      internalID: 1346609575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_26
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 361
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218019043b1844b4f899f5bdba960103
+      internalID: -1916402007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_27
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 355
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb7d7c6b90b3624d8d8eeae32e00bce
+      internalID: -1704347607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_28
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 349
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69a3e358151fe3418832c8bc304f3b3
+      internalID: 888423642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_29
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 342
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688f542111f2d7042a0dcafd8ce24248
+      internalID: -355933451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_30
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 163
+        width: 507
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e8434a2693a6243818956de3e10cf5
+      internalID: -902118140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_31
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 294
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802a6a5e565c41b439537c1ab794c48f
+      internalID: 819044105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_32
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 246
+        width: 126
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18c6c0bb4dacd840b9ec8a7904d51eb
+      internalID: 161996230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_33
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 318
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626a1d51dd6a71a46bc9f16f008fe722
+      internalID: -1718827347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_34
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 318
+        width: 160
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30ad84beb55d3d40acf30b9c86a07d4
+      internalID: 851264436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_35
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 318
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3051408c7fe9b4abafeaeadf3f63b7
+      internalID: 1112700144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_36
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 312
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ace9684dae2be6418059a68e1587396
+      internalID: 584423754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_37
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 312
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6601c87df6ad0c54cbd796f0424c08c6
+      internalID: 879322137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_38
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 306
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c50f7e3a2c9e1498d168640201ef82
+      internalID: 1397730902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_39
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 306
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cfde3e6d1f9544b884443b739bbc1c
+      internalID: -934190939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_40
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 300
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26d0c9e4f7b5b343a1216b43e316247
+      internalID: -2139285908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_41
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 300
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4e06dbd1f14dd428dc3a141f992522
+      internalID: 810890805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_42
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 294
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85871ed9e8bad9749bab65b0df7dd037
+      internalID: -126671514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_43
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 246
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268f7afba8cad4e48a382e1d6cd1df07
+      internalID: -1856762370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_44
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 194
+        width: 125
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe47e1b4d5dacc843a09d2777968cdf7
+      internalID: 650667414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_45
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 192
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a8ffd8d8827144a98bf70e2247b810
+      internalID: 1582619521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_46
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 163
+        width: 366
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6892f1a58808474a8ddbc6081d1f7e2
+      internalID: 491647696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_47
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 192
+        width: 126
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f229215389da09c479bf308bc4697b0d
+      internalID: -240912828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_48
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 194
+        width: 125
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99157163974741241be342a69f319da4
+      internalID: -1488654880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_49
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 163
+        width: 46
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af54f5579d446942bc716a74bc8b92f
+      internalID: 1234269413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burnout logo transp vector_50
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 169
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60af78dbe822022428af1c5b5eabb089
+      internalID: -612544321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e3a52a808098c6249a023866d25f9701
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Burnout logo transp vector_0: 1259239432
+      Burnout logo transp vector_1: 1984250249
+      Burnout logo transp vector_10: -17655822
+      Burnout logo transp vector_11: -1344630912
+      Burnout logo transp vector_12: -263631704
+      Burnout logo transp vector_13: -145907911
+      Burnout logo transp vector_14: 61728917
+      Burnout logo transp vector_15: -1365787785
+      Burnout logo transp vector_16: -166813370
+      Burnout logo transp vector_17: -1027855019
+      Burnout logo transp vector_18: 1244668586
+      Burnout logo transp vector_19: -238396945
+      Burnout logo transp vector_2: 1856840668
+      Burnout logo transp vector_20: -603595165
+      Burnout logo transp vector_21: 1549004847
+      Burnout logo transp vector_22: -946661199
+      Burnout logo transp vector_23: 2042538710
+      Burnout logo transp vector_24: -734138215
+      Burnout logo transp vector_25: 1346609575
+      Burnout logo transp vector_26: -1916402007
+      Burnout logo transp vector_27: -1704347607
+      Burnout logo transp vector_28: 888423642
+      Burnout logo transp vector_29: -355933451
+      Burnout logo transp vector_3: 851448781
+      Burnout logo transp vector_30: -902118140
+      Burnout logo transp vector_31: 819044105
+      Burnout logo transp vector_32: 161996230
+      Burnout logo transp vector_33: -1718827347
+      Burnout logo transp vector_34: 851264436
+      Burnout logo transp vector_35: 1112700144
+      Burnout logo transp vector_36: 584423754
+      Burnout logo transp vector_37: 879322137
+      Burnout logo transp vector_38: 1397730902
+      Burnout logo transp vector_39: -934190939
+      Burnout logo transp vector_4: 1352034691
+      Burnout logo transp vector_40: -2139285908
+      Burnout logo transp vector_41: 810890805
+      Burnout logo transp vector_42: -126671514
+      Burnout logo transp vector_43: -1856762370
+      Burnout logo transp vector_44: 650667414
+      Burnout logo transp vector_45: 1582619521
+      Burnout logo transp vector_46: 491647696
+      Burnout logo transp vector_47: -240912828
+      Burnout logo transp vector_48: -1488654880
+      Burnout logo transp vector_49: 1234269413
+      Burnout logo transp vector_5: 1111868741
+      Burnout logo transp vector_50: -612544321
+      Burnout logo transp vector_6: 1157245025
+      Burnout logo transp vector_7: 116976658
+      Burnout logo transp vector_8: 1981437804
+      Burnout logo transp vector_9: 1808873670
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
