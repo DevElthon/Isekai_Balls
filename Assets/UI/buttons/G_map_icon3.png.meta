@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 85dad111e3c547c41b9039a317e8957d
+guid: e991e8d07062f68468c105ed1fef6ad5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,13 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Back_UI_0
+      name: G_map_icon3_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 18
-        width: 400
-        height: 666
+        x: 96
+        y: 348
+        width: 96
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,8 +150,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e9ad854abd12a34997aa0df626b99f9
-      internalID: -1088326621
+      spriteID: b146889d842e30742aa791a43022472f
+      internalID: -1914155658
       vertices: []
       indices: 
       edges: []
@@ -159,7 +159,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: fb2771dd9635c084aae0cd6304e5abfc
+    spriteID: cdd3686057ff5d64f9ca105369a2553f
     internalID: 0
     vertices: []
     indices: 
@@ -167,7 +167,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Back_UI_0: -1088326621
+      G_map_icon3_0: -1914155658
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
