@@ -910,7 +910,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &44074820
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18059,9 +18059,13 @@ MonoBehaviour:
   skins:
   - {fileID: 4711208715938537054, guid: 6c33d2ab8a71c664aa05b2a89c73b434, type: 3}
   - {fileID: 4711208715938537054, guid: 57e5ea7f4de11af4781b4cc09b4fcb50, type: 3}
+  - {fileID: 4711208715938537054, guid: 235c2f7cae8d09d4f99f4e6c08f759ae, type: 3}
+  - {fileID: 4711208715938537054, guid: 19e941501676c024baf7c9d3198f8530, type: 3}
   skinRenderes:
   - {fileID: -6478536213147159724, guid: 6c33d2ab8a71c664aa05b2a89c73b434, type: 3}
   - {fileID: -876546973899608171, guid: 57e5ea7f4de11af4781b4cc09b4fcb50, type: 3}
+  - {fileID: -6478536213147159724, guid: 235c2f7cae8d09d4f99f4e6c08f759ae, type: 3}
+  - {fileID: -6478536213147159724, guid: 19e941501676c024baf7c9d3198f8530, type: 3}
 --- !u!114 &1781965018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20028,7 +20032,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2035709599
 RectTransform:
   m_ObjectHideFlags: 0
