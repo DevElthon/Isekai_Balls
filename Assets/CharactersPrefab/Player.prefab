@@ -154,14 +154,18 @@ MonoBehaviour:
   pushDuration: 0.5
   skins:
   - {fileID: 4711208715938537054, guid: 6c33d2ab8a71c664aa05b2a89c73b434, type: 3}
+  - {fileID: 4711208715938537054, guid: 39a7dc711c57bbe45bdec974bc2cca78, type: 3}
   - {fileID: 4711208715938537054, guid: 57e5ea7f4de11af4781b4cc09b4fcb50, type: 3}
-  - {fileID: 4711208715938537054, guid: 235c2f7cae8d09d4f99f4e6c08f759ae, type: 3}
   - {fileID: 4711208715938537054, guid: 19e941501676c024baf7c9d3198f8530, type: 3}
+  - {fileID: 4711208715938537054, guid: 235c2f7cae8d09d4f99f4e6c08f759ae, type: 3}
+  - {fileID: 4711208715938537054, guid: eae10394cfcd0e34d8d8471f14028393, type: 3}
   skinRenderes:
   - {fileID: -6478536213147159724, guid: 6c33d2ab8a71c664aa05b2a89c73b434, type: 3}
+  - {fileID: -6478536213147159724, guid: 39a7dc711c57bbe45bdec974bc2cca78, type: 3}
   - {fileID: -876546973899608171, guid: 57e5ea7f4de11af4781b4cc09b4fcb50, type: 3}
-  - {fileID: -6478536213147159724, guid: 235c2f7cae8d09d4f99f4e6c08f759ae, type: 3}
   - {fileID: -6478536213147159724, guid: 19e941501676c024baf7c9d3198f8530, type: 3}
+  - {fileID: -6478536213147159724, guid: 235c2f7cae8d09d4f99f4e6c08f759ae, type: 3}
+  - {fileID: -6478536213147159724, guid: eae10394cfcd0e34d8d8471f14028393, type: 3}
 --- !u!114 &4078557488619609524
 MonoBehaviour:
   m_ObjectHideFlags: 0
