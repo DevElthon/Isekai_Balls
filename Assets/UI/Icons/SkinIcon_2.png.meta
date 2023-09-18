@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4733b4bfa9bed884d9205bdf8a222474
+guid: 3c785824a88114644b4601ae3a89c5c1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,22 +136,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Opcoes_0
+      name: SkinIcon_2_5
       rect:
         serializedVersion: 2
-        x: 126
-        y: 129
-        width: 786
-        height: 812
+        x: 130
+        y: 120
+        width: 780
+        height: 830
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ea28604ac56bce4290ba93a9f3c25ed
-      internalID: -1352784570
+      spriteID: 5320de6c0f8a59540834a18c5c5b28f4
+      internalID: -167158740
       vertices: []
       indices: 
       edges: []
@@ -159,7 +159,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: cd08d1b848bc87b47baafe2af4d020b2
+    spriteID: f6d427fde9a82e44fa7e83e2af1bbfd2
     internalID: 0
     vertices: []
     indices: 
@@ -167,7 +167,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Opcoes_0: -1352784570
+      SkinIcon_2_0: 1061861774
+      SkinIcon_2_1: -1610690253
+      SkinIcon_2_2: 2017898771
+      SkinIcon_2_3: 913823467
+      SkinIcon_2_4: -1804596239
+      SkinIcon_2_5: -167158740
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
