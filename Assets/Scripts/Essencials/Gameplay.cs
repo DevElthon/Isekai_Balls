@@ -54,6 +54,7 @@ public class Gameplay : MonoBehaviour
     }
 
     private void StageCompute(int counter){
+        StopCoroutine("Phasing");
         if(enemyCounter >= stages * stages){
             switch (phase){
                 case < 3:
@@ -92,10 +93,15 @@ public class Gameplay : MonoBehaviour
         }
     }
 
+    IEnumerator Phasing(){
+        yield return new WaitForSeconds(0.5f);
+        StageCompute(enemyCounter);
+    }
+
     private void OnTriggerEnter(Collider other) {
         if(other.CompareTag("Enemy")){
             enemyCounter += 1;
-            StageCompute(enemyCounter);
+            StartCoroutine("Phasing");
             Destroy(other.gameObject);
         }
     }
