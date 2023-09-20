@@ -16,6 +16,8 @@ public class GameUIManager : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI phaseComplete;
 
+    [SerializeField] 
+    private GameObject[] stageMarker; 
     [SerializeField]
     private GameObject stageCounter1;
     [SerializeField]
@@ -58,11 +60,13 @@ public class GameUIManager : MonoBehaviour
         // Debug.Log(Gameplay.instance.enemyCounter);
         switch(SceneLoad.phase){
             case < 4:
+                stageMarker[0].SetActive(true);
                 if(Gameplay.instance.enemyCounter == 1)
                     stageCounter1.SetActive(true);
                 break;
 
             case < 7:
+                stageMarker[1].SetActive(true);
                 if(Gameplay.instance.enemyCounter >= SceneLoad.stages * SceneLoad.stages){
                     stageCounter2[1].gameObject.SetActive(true);
                     }
@@ -72,6 +76,7 @@ public class GameUIManager : MonoBehaviour
                 break;
 
             case < 10:
+                stageMarker[2].SetActive(true);
                 if(Gameplay.instance.enemyCounter >= SceneLoad.stages * SceneLoad.stages){
                         stageCounter3[2].gameObject.SetActive(true);
                     }
@@ -86,6 +91,7 @@ public class GameUIManager : MonoBehaviour
                 break;
 
             case 10:
+                stageMarker[0].SetActive(true);
                 if(Gameplay.instance.enemyCounter == 1)
                     stageCounter1.SetActive(true);
                 break;
@@ -99,6 +105,9 @@ public class GameUIManager : MonoBehaviour
         }
         for(int i = 0; i < stageCounter3.Length; i++){
             stageCounter3[i].gameObject.SetActive(false);
+        }
+        for(int i = 0; i < stageMarker.Length; i++){
+            stageMarker[i].gameObject.SetActive(false);
         }
     }
 }
