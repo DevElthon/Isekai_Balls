@@ -47,7 +47,7 @@ public class GameUIManager : MonoBehaviour
 
     private void Update() {
         StageCounting();
-        phaseComplete.text = "PHASE " + instance.phase.ToString() + " COMPLETE !";
+        phaseComplete.text = "Phase " + instance.phase.ToString() + " Complete !";
         coinsPlus.text = "+" + (instance.coinAmount + (instance.phase * 5) + PlayerPrefs.GetInt("CoinLvl") * 5).ToString();
     }
 
